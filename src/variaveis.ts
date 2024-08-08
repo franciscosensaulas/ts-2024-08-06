@@ -14,6 +14,20 @@ function exemplo01(): void {
 
     let estaEmpregadoTexto = convertBooleanParaString(estaEmpregado);
 
+    console.log(`
+    Apelido: ${apelido}
+    Idade: ${idade}
+    Patrimônio: ${patrimonio}
+    Empregado: ${estaEmpregadoTexto}
+    Filho Marta: ${convertBooleanParaString(filhoMarta)}`);
+
+
+
+
+
+
+
+
     let titulo = document.querySelector("h1");
     titulo.innerText = nomeUsuario;
 
