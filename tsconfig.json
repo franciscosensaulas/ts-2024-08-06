@@ -1,13 +1,18 @@
 {
-    "compilerOptions": {
-      "module": "commonjs",
-      "noImplicitAny": true,
-      "removeComments": true,
-      "preserveConstEnums": true,
-      "sourceMap": false,
-      "outDir": "dist",
-    },
-    "include": [
-      "src/**/*.ts"
-    ]
-  }
+  "compilerOptions": {
+    "target": "ES2015", // Define o alvo ECMAScript
+    "lib": [
+      "ES2015",
+      "DOM"
+    ], // Inclui as bibliotecas necessárias
+    "module": "commonjs",
+    "noImplicitAny": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "sourceMap": true,
+    "outDir": "dist",
+  },
+  "include": [
+    "src/**/*.ts"
+  ]
+}
