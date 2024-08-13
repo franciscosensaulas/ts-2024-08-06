@@ -180,20 +180,13 @@ conta.apresentarDados();
 https://dontpad.com/franciscosensaulas/ts
 Ex. 1: 
     Crie uma classe base chamada InstrumentoMusical com as propriedades nome e tipo (por exemplo, "cordas", "sopro", etc.). Adicione um método tocar() que retorne uma string genérica como "Tocando instrumento". 
-    
     Crie duas subclasses chamadas Violao e Flauta, que herdem de InstrumentoMusical. 
-
     Na classe Violao, adicione uma propriedade numeroCordas e sobrescreva o método tocar() para retornar uma string como "Tocando violão com 6 cordas". 
-
     Na classe Flauta, adicione uma propriedade material e sobrescreva o método tocar() para retornar uma string como "Tocando flauta feita de [material]".
 Ex. 2: 
     Crie uma classe base chamada Transporte com as propriedades tipo, velocidadeMaxima, e capacidadePassageiros. Adicione um método informacoes() que retorne uma string com as informações básicas do transporte. 
-
     Crie duas subclasses chamadas Carro e Avião. 
-
-    Na classe Carro, adicione uma propriedade numeroPortas e crie um método específico abrirPortas() que retorne uma string informando o número de portas abertas. 
-
+    Na classe Carro, adicione uma propriedade numeroPortas e crie um método específico abrirPorta() que retorne uma string informando o número de portas abertas. 
     Na classe Avião, adicione uma propriedade alcanceVoo (em quilômetros) e um método específico mostrarAlcance() que retorne uma string com o alcance de voo. 
-
     As subclasses devem sobrescrever o método informacoes() para incluir os detalhes específicos de cada tipo de transporte.
 */
